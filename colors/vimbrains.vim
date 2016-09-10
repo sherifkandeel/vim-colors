@@ -347,7 +347,6 @@ hi! link cSpecial EscSequence
 hi! link dEscSequence EscSequence
 
 " NERDTree
-" hi NERDTreeDir guifg=#98BC37 ctermfg=10
 call s:HL('NERDTreeDir', s:string, s:bg)
 hi! link pythonCoding Comment
 call s:HL('NERDTreeClosable', s:fg, s:bg)
