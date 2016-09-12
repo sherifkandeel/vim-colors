@@ -1,4 +1,4 @@
-"intelliJified
+"vimbrains
 
 hi clear
 
@@ -6,7 +6,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let g:colors_name='vorange'
+let g:colors_name='vimbrains'
 
 if !has('gui_running') && &t_Co != 256
     finish
@@ -31,54 +31,54 @@ let s:variable = ["#6c6c6c", 67]
 
 let s:none = ['NONE', 'NONE']
 
-if !exists('g:vorange_bold')
-    let g:vorange_bold=1
+if !exists('g:vimbrains_bold')
+    let g:vimbrains_bold=1
 endif
 
-if !exists('g:vorange_italic')
+if !exists('g:vimbrains_italic')
     if has('gui_running') || $TERM_ITALICS == 'true'
-        let g:vorange_italic=1
+        let g:vimbrains_italic=1
     else
-        let g:vorange_italic=0
+        let g:vimbrains_italic=0
     endif
 endif
 
-if !exists('g:vorange_undercurl')
-    let g:vorange_undercurl=1
+if !exists('g:vimbrains_undercurl')
+    let g:vimbrains_undercurl=1
 endif
 
-if !exists('g:vorange_underline')
-    let g:vorange_underline=1
+if !exists('g:vimbrains_underline')
+    let g:vimbrains_underline=1
 endif
 
-if !exists('g:vorange_inverse')
-    let g:vorange_inverse=1
+if !exists('g:vimbrains_inverse')
+    let g:vimbrains_inverse=1
 endif
 
 " Setup Emphasis:
 
 let s:bold = 'bold,'
-if g:vorange_bold == 0
+if g:vimbrains_bold == 0
     let s:bold = ''
 endif
 
 let s:italic = 'italic,'
-if g:vorange_italic == 0
+if g:vimbrains_italic == 0
     let s:italic = ''
 endif
 
 let s:underline = 'underline,'
-if g:vorange_underline == 0
+if g:vimbrains_underline == 0
     let s:underline = ''
 endif
 
 let s:undercurl = 'undercurl,'
-if g:vorange_undercurl == 0
+if g:vimbrains_undercurl == 0
     let s:undercurl = ''
 endif
 
 let s:inverse = 'inverse,'
-if g:vorange_inverse == 0
+if g:vimbrains_inverse == 0
     let s:inverse = ''
 endif
 
