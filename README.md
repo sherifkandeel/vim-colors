@@ -14,6 +14,11 @@ A color theme for iTerm2 inspired by jetbrains dark theme for IntelliJ IDEA and 
 ![iTermbrains preview](https://raw.githubusercontent.com/sherifkandeel/vim-colors/master/screenshots/iTermbrains.png)
 
 
-###Usage
+##Usage
+###Vim Themes
 clone the repo, copy the desired vim themes into your `~/.vim/colors` if you don't already have `colors` folder, you can create it. 
-For iTerm themes, you need to add them to `~/Library/Application Support/iTerm2/DynamicProfiles`
+
+
+###iTerm2 Themes
+You need to add the json files to `~/Library/Application Support/iTerm2/DynamicProfiles` then you should be able to find
+them in the profiles tab in iTerm2 preferences
