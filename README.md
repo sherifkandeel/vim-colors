@@ -1,4 +1,4 @@
-# vim-colors
+# Color themes for your favourite Terminal emulator and the most awesome text editor!
 
 ##Description
 A list of my personal vim and iTerm2 color themes, currenlty there's only one vim color theme, others to be created and added in the future.
