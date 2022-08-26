@@ -358,6 +358,6 @@ hi Title guifg=gold gui=bold cterm=bold ctermfg=yellow
 hi Ignore guifg=grey40 cterm=bold ctermfg=7
 hi Directory ctermfg=darkcyan
 hi VisualNOS cterm=bold,underline
-hi SpellErrors cterm=bold ctermfg=7 ctermbg=1 gui=undercurl,bold
+hi SpellBad cterm=bold ctermfg=7 ctermbg=1 gui=undercurl,bold
 
 
